@@ -1,3 +1,4 @@
+console.log("connectedgit");
 let body = document.querySelector("body"),
     headerMenu = document.querySelector(".header-menu-content"),
     burgerOpenBtm = document.querySelector(".burger"),
@@ -10,8 +11,11 @@ let body = document.querySelector("body"),
     function opentBurger(){
         headerMenu.style.display = "flex";
         body.style.overflow = "hidden";
+        console.log("on");
     }
     function closeBurger(){
         headerMenu.style.display = "none";
-        body.style.overflow = "auto ";
+        body.style.overflow = "auto";
+        console.log("off");
     }
+    
