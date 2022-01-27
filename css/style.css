@@ -135,9 +135,14 @@ header .wrapper{
     margin-right: 55px;
     text-transform: uppercase;
 }
-/* .header-menu li:last-child{
-    margin: 0;
-} */
+.header-menu li a{
+    color: #000;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+.heaeder-menu li a:hover{
+    transform: scale(1.1);
+}
 .header-social{
     display: inline-block; 
 }
@@ -163,10 +168,6 @@ footer .footer-social{
 .section-text p{
     margin: 0;
     margin-bottom: 40px;
-}
-.section-software .section-text h2,
-.section-software .section-img img{
-    z-index: 5;
 }
 .section-software .section-btm a:first-child{
     margin-right: 30px;
